@@ -12,8 +12,6 @@ package algorithms;
  Note: for this kata y isn't considered a vowel.
  */
 
-import java.util.regex.Pattern;
-
 public class Troll {
     public static String disemvowel(String str) {
         return str.replaceAll("[aeiouAEIOU]", "");
