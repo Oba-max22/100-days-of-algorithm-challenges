@@ -1,3 +1,5 @@
+package algorithms;
+
 import java.util.*;
 
 // Day-2
