@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_2;
 
 import java.util.Arrays;
 

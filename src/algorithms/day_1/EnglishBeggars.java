@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_1;
 
 import java.util.Arrays;
 
@@ -41,11 +41,11 @@ public class EnglishBeggars {
         } else {
             result = new int[n];
             int j = 0;
-            for (int i = 0; i < values.length; i++) {
+            for (int value : values) {
                 if (j == n) {
                     j = 0;
                 }
-                result[j] += values[i];
+                result[j] += value;
                 j++;
             }
         }

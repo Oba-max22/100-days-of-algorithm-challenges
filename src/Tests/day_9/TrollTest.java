@@ -1,9 +1,9 @@
-package Tests;
+package Tests.day_9;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import algorithms.Troll;
+import algorithms.day_9.Troll;
 
 class TrollTest {
 

@@ -1,6 +1,6 @@
-package Tests;
+package Tests.day_9;
 
-import algorithms.Opstrings;
+import algorithms.day_9.Opstrings;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

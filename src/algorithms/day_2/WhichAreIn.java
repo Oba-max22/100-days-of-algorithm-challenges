@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_2;
 
 import java.util.*;
 
@@ -21,18 +21,18 @@ import java.util.*;
 
 public class WhichAreIn {
     public static void main(String[] args) {
-        String a[] = new String[]{ "strong", "arp", "live" };
-        String b[] = new String[] { "lively", "alive", "harp", "sharp", "armstrong" };
+        String[] a = new String[]{ "strong", "arp", "live" };
+        String[] b = new String[] { "lively", "alive", "harp", "sharp", "armstrong" };
         System.out.println(Arrays.toString(WhichAreIn.inArray(a, b))); // { "arp", "live", "strong" }
     }
     public static String[] inArray(String[] array1, String[] array2) {
         List<String> r = new ArrayList<>();
 
-        for (int i = 0; i < array1.length; i++) {
-            for (int j = 0; j < array2.length; j++) {
-                if (array2[j].contains(array1[i])) {
-                    if (!(r.contains(array1[i]))) {
-                        r.add(array1[i]);
+        for (String s : array1) {
+            for (String value : array2) {
+                if (value.contains(s)) {
+                    if (!(r.contains(s))) {
+                        r.add(s);
                     }
                 }
             }

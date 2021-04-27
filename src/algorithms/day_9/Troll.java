@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_9;
 /*
  Day-9 (Disemvowel Trolls)
  Trolls are attacking your comment section!

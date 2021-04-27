@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_9;
 
 import java.util.function.Function;
 /*
@@ -50,8 +50,8 @@ public class Opstrings {
     public static String vertMirror (String strng) {
         String[] s = strng.split("\n");
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < s.length; i++) {
-            StringBuilder wb = new StringBuilder(s[i]);
+        for (String value : s) {
+            StringBuilder wb = new StringBuilder(value);
             sb.append(wb.reverse()).append("\n");
         }
         return sb.toString().trim();

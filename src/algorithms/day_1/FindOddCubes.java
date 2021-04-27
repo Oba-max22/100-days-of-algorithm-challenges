@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.day_1;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class FindOddCubes {
         System.out.println(FindOddCubes.cubeOdd(new int[] {1, 2, 3, 4}));
         System.out.println(FindOddCubes.cubeOdd(new int[] {-3, -2, 2, 3}));
     }
-    public static int cubeOdd(int arr[]) {
+    public static int cubeOdd(int[] arr) {
         return Arrays.stream(arr).map(n -> n = (n * n * n)).filter(n -> n % 2 == 1 || n % 2 == -1).sum();
     }
 }
