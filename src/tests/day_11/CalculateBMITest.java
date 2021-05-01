@@ -1,4 +1,4 @@
-package Tests.day_11;
+package tests.day_11;
 
 import algorithms.day_11.CalculateBMI;
 import org.junit.jupiter.api.Test;

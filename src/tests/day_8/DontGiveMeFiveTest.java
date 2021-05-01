@@ -1,4 +1,4 @@
-package Tests.day_8;
+package tests.day_8;
 
 import algorithms.day_8.DontGiveMeFive;
 import org.junit.jupiter.api.Test;

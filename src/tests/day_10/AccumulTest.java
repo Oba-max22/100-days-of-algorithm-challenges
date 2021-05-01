@@ -1,4 +1,4 @@
-package Tests.day_10;
+package tests.day_10;
 
 import algorithms.day_10.Accumul;
 import org.junit.jupiter.api.Test;

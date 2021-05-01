@@ -1,4 +1,4 @@
-package Tests.day_9;
+package tests.day_9;
 
 import algorithms.day_9.Opstrings;
 import org.junit.jupiter.api.Test;

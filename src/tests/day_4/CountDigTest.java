@@ -1,4 +1,4 @@
-package Tests.day_4;
+package tests.day_4;
 
 import algorithms.day_4.CountDig;
 import org.junit.jupiter.api.Test;

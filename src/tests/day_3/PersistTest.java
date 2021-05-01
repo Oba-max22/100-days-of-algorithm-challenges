@@ -1,4 +1,4 @@
-package Tests.day_3;
+package tests.day_3;
 
 import algorithms.day_3.Persist;
 import org.junit.jupiter.api.Assertions;
